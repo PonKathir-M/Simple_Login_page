@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    
+}
+.card{
+    padding: 60px 40px 50px 40px;
+    background: rgb(50, 50, 50);
+    border-radius: 10px;
+}
+#name{
+    width: 200px;
+    
+    border: none;
+    background: transparent;
+    border-bottom: 1px  solid white;
+    padding: 6px;
+    margin-bottom: 15px;
+    color: white;
+
+    
+}
+#sub{
+    
+    border-radius: 20%;
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: aqua;
+    color:black;
+    border: none;
+    outline: none;
+    margin-left: 60px;
+    
+}
+
+#sub:hover{
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+.pic{
+    height: 100vh;
+    width: 200vh;
+    background-size: cover;
+}
+.pho{
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: -50px;
+    
+}
+a{
+  color:darkgreen;
+}
+a:hover{
+    color: chartreuse;
+}
